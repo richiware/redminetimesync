@@ -27,7 +27,7 @@ if __name__ == '__main__':
     sys.stdout.flush()
     try:
         redmine_url = configProperties.get('redmine', 'url')
-        myredmine = Redmine(redmine_url, configProperties.get('redmine', 'key'))
+        myredmine = Redmine(redmine_url, key=configProperties.get('redmine', 'key'))
     except:
         print("\nCannot connect to Redmine, check out credentials or connectivity")
         sys.exit()

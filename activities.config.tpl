@@ -7,3 +7,13 @@
 #Project management: 13
 #Phone: 14                # Support
 #Customer email: 14       # Support, too
+
+#eProsima
+Planning: 10
+Design: 8
+Development: 9
+Managment: 11
+Support: 12
+Revision: 13
+Education: 14
+Testing: 15
